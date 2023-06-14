@@ -1,7 +1,7 @@
 # Appnap_training
-This is my Appnap web development training repository where I will keep all my files.
+This is my Appnap web development training repository where I will keep all task files.
 
-## What to learn from HTML class 1
+## What I have learned from HTML class 1
 1. data-* attribute from Html global attributes:
     https://www.w3schools.com/tags/att_global_data.asp
 
@@ -15,3 +15,8 @@ This is my Appnap web development training repository where I will keep all my f
 
 5. HTML form input type attributes:
     https://www.w3schools.com/html/html_form_input_types.asp
+    
+## What to learn from class 2
+1. Tables
+2. Images
+3. Hyperlinks
