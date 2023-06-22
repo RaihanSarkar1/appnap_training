@@ -27,10 +27,10 @@ This is my Appnap web development training repository where I will keep all task
    - internal CSS
    - external CSS
 2. CSS properties:
-   -color
-   -background-color
-   -font-size
-   -font-weight
-   -text-decoration
+   - color
+   - background-color
+   - font-size
+   - font-weight
+   - text-decoration
 3. Name refactoring when naming classes:
    for example- padding-left-right can be written as px
