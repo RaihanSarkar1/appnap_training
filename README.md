@@ -16,7 +16,21 @@ This is my Appnap web development training repository where I will keep all task
 5. HTML form input type attributes:
     https://www.w3schools.com/html/html_form_input_types.asp
     
-## What to learn from class 2
+## What I learned from class 2
 1. Tables
 2. Images
 3. Hyperlinks
+
+## What I learned from class 3
+1. Types of CSS:
+   - inline CSS
+   - internal CSS
+   - external CSS
+2. CSS properties:
+   -color
+   -background-color
+   -font-size
+   -font-weight
+   -text-decoration
+3. Name refactoring when naming classes:
+   for example- padding-left-right can be written as px
