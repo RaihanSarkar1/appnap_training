@@ -34,3 +34,16 @@ This is my Appnap web development training repository where I will keep all task
    - text-decoration
 3. Name refactoring when naming classes:
    for example- padding-left-right can be written as px
+
+## What I have learned from class 4
+    - How to use Bootstrap
+    - How to use Navbar from Bootstrap
+    - How to use classes from Bootstrap. For example:
+        1. bg-success        9. text-primary        17. text-white
+        2. bg-danger        10. text-secondary      18. text-black
+        3. bg-primary       11. text-success
+        4. bg-secondary     12. text-danger
+        5. bg-warning       13. text-warning
+        6. bg-info          14. text-info
+        7. bg-light         15. text-light
+        8. bg-dark          16. text-dark
