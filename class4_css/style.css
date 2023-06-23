@@ -1,14 +1,17 @@
-@media(max-width: 992px) {
+@media(max-width: 1400px) {
     #nav-1 {
          display: none;
      } 
+
+     #nsu-logo {
+        display: none;
+     }
  }
-.container {
-}
+
 
 
 .bg-img {
-    height:  100vh;
+    height: 100vh;
     width: 100%;
     background-image: url("./img/fullSlide-7.jpg");
     background-repeat: no-repeat;
@@ -19,9 +22,9 @@
 #nsu-logo {
     height: 121px;
     width: 100px;
+    left: 10vw;
     position: absolute;
     top: 10px;
-    left: 70px;
     z-index: 2;
 }
 
@@ -41,7 +44,6 @@
 
 #sect-1 {
     margin-top: 31px;
-    background-color: antiquewhite;
     height: 100vh;
 }
 
@@ -57,4 +59,36 @@
     line-height: 34px;
     margin-bottom: 0;
     margin-top: 1px
+}
+
+.news-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: #444;
+    text-align: center
+}
+
+.news-title > a {
+
+    text-decoration: none;
+}
+.news-sect img{
+    width: 100%;
+}
+
+.news-sect .row .col {
+    background-color: #dddddd;
+    padding: 10px;
+    margin-right: 6px;
+}
+
+.news-sect .row .col a{
+    color: #444;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    font-weight: 500;
 }
