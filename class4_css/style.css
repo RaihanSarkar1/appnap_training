@@ -1,3 +1,10 @@
+@media(max-width: 992px) {
+    #nav-1 {
+         display: none;
+     } 
+ }
+.container {
+}
 
 
 .bg-img {
@@ -9,7 +16,45 @@
     background-position: center center;
 }
 
-.sect-1 {
-    margin-top: 20px;
+#nsu-logo {
+    height: 121px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    z-index: 2;
 }
 
+
+.slogan-bar {
+    background: linear-gradient(to right, #514A9D, #24C6DC);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: -58px;
+    color: #FFFFFF;
+    padding: 18px;
+
+
+}
+
+
+#sect-1 {
+    margin-top: 31px;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+#sect-1-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.scroll h2 {
+    font-weight: 400;
+    font-size: 22px;
+    border-bottom: 1px solid #e1e1e1;
+    line-height: 34px;
+    margin-bottom: 0;
+    margin-top: 1px
+}
