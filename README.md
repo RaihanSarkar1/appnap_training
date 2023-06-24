@@ -55,4 +55,5 @@ This is my Appnap web development training repository where I will keep all task
 4. Button Component and colors:
     - btn btn-primary
     - btn btn-outline-primary
+    - btn-sm
        
