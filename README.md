@@ -47,3 +47,12 @@ This is my Appnap web development training repository where I will keep all task
         6. bg-info          14. text-info
         7. bg-light         15. text-light
         8. bg-dark          16. text-dark
+
+## What I have learned from class 5
+1. Breakpoints: col-md-4 and col-sm-12
+2. Card component
+3. Pagination component and active class
+4. Button Component and colors:
+    - btn btn-primary
+    - btn btn-outline-primary
+       
