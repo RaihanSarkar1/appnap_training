@@ -63,7 +63,7 @@ This is my Appnap web development training repository where I will keep all task
     - Shadow
     - Float
 2. Using Border colors and background colors
-3. How to use Forms and Names of inputs
+3. How to use Forms and name attribute of inputs
 4. How to use Input Types:
     - Text
     - Email
