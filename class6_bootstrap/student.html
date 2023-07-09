@@ -1,6 +1,6 @@
-<html>
+<html data-bs-theme="dark">
     <head>
-        <title>Customer Registration Form</title>
+        <title>Student Registration Form</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </head>
@@ -8,44 +8,54 @@
         <div class="container">
             <div class="row">
 
-                <form action="" class="border shadow mt-4 p-4">
-                    <h3>Customer Registration Form</h3>
+                <form action="" class="border border-secondary rounded shadow mt-4 p-4">
+                    <h3>Student Registration Form</h3>
 
                     <div class="row g-3 mt-3">
-                        <div class="col-6">
-                            <label for="inputFirst" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="inputFirst">
+                        <div class="col-2 col-form-label">
+                            <label for="">Name</label>
                         </div>
-                        <div class="col-6">
-                            <label for="inputLast" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="inputLast">
+                        <div class="col-5">
+                            <input type="text" class="form-control" id="inputFirst" placeholder="First Name">
                         </div>
-                        <div class="col-12">
+                        <div class="col-5">
+                            <input type="text" class="form-control" id="inputLast" placeholder="Last Name">
+                        </div>
+                        <div class="col-2 col-form-label">
                             <label for="inputEmail" class="form-label">Email address</label>
+                        </div>
+                        <div class="col-10">
                             <input type="email" class="form-control" id="inputEmail"  placeholder="name@example.com">
                         </div>
-                        <div class="col-12 mb-3">
-                            <label for="inputPhone" class="form-label">Phone Number</label>
-                            <div class="input-group">
-                                <span class="input-group-text" id="basic-addon1">+880</span>
-                                <input type="number" class="form-control" id="inputPhone">
-                            </div>
+
+                        <div class="col-2 col-form-label">
+                            <label for="inputDept">Department</label>
+                        </div>
+                        <div class="col-10">
+                            <select class="form-select" name="department" id="inputDept">
+                                <option value="ECE">ECE</option>
+                                <option value="BBA">BBA</option>
+                                <option value="PHR">PHR</option>
+                                <option value="SOC">SOC</option>
+                            </select>
+                        </div>
+                        <div class="col-2 col-form-label">
+                            <label for="inputId" class="form-label">ID</label>
+                        </div>
+                        <div class="col-10">
+                            <input type="number" class="form-control" id="inputId">
+                        </div>
+                        
+                        
+                        
+                        <div class="col-2 col-form-label">
+                            <label for="inputDate" class="form-label">Date of Birth</label>
+                        </div>
+                        <div class="col-10 mb-4">
+                            <input type="date" class="form-control" id="inputDate">
                         </div>
                     </div>
-
-                    <label for="" class="me-3">Gender</label>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="gender" id="inline-radio-1" value="male">
-                        <label class="form-check-label" for="inline-radio-1">Male</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="gender" id="inline-radio-2" value="female">
-                        <label class="form-check-label" for="inline-radio-2">Female</label>
-                    </div>
-                    <div class="mt-3">
-                        <label for="inputDate" class="form-label">Date of Birth</label>
-                        <input type="date" class="form-control" id="inputDate">
-                    </div>
+                    <button type="submit" class="btn btn-primary float-end">Submit</button>
                 </form>
             </div>
         </div>
