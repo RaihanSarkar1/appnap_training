@@ -56,4 +56,21 @@ This is my Appnap web development training repository where I will keep all task
     - btn btn-primary
     - btn btn-outline-primary
     - btn-sm
-       
+  
+## What I have learned from class 6
+1. Using Utilities:
+    - Opacity
+    - Shadow
+    - Float
+2. Using Border colors and background colors
+3. How to use Forms and name attribute of inputs
+4. How to use Input Types:
+    - Text
+    - Email
+    - Number
+    - Password
+    - Radio
+    - Date
+5. How to use the Select tag
+6. How to use layout in forms
+7. How to use List Group
