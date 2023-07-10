@@ -1,0 +1,25 @@
+
+
+.table {
+    height: 400px;
+    /* Table layout fixed makes the width of all table cells of equal size */
+    table-layout: fixed;
+    width: 300px;
+}
+
+td {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+td:hover {
+    background-color: white;
+}
+
+#operand1 {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    color: white;
+    font-size: 2.5rem;
+}
