@@ -1,4 +1,7 @@
+body {
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
 
+}
 
 .table {
     height: 400px;
@@ -18,7 +21,7 @@ td:hover {
 
 #operand1 {
     text-align: right;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.55);
     padding: 20px;
     color: white;
     font-size: 2.5rem;
