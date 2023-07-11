@@ -74,3 +74,8 @@ This is my Appnap web development training repository where I will keep all task
 5. How to use the Select tag
 6. How to use layout in forms
 7. How to use List Group
+
+## What I have learned from class 7
+1. Javascript Variables- let/var and const
+2. Javascript Events
+3. Javascript Operators
