@@ -29,4 +29,3 @@ buttons.forEach((button) => {
         }
     })
 })
-
