@@ -79,3 +79,14 @@ This is my Appnap web development training repository where I will keep all task
 1. Javascript Variables- let/var and const
 2. Javascript Events
 3. Javascript Operators
+
+## What I have learned from class 8
+1. Javascript variables
+2. Javascript Operators
+3. Javascript Equality
+4. Using Loops
+
+## What I have learned from class 9
+1. Javascript Arrays
+2. Javascript array.forEach method
+3. Javascript array.map method
