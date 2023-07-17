@@ -90,3 +90,7 @@ This is my Appnap web development training repository where I will keep all task
 1. Javascript Arrays
 2. Javascript array.forEach method
 3. Javascript array.map method
+
+## What I have learned from class 10
+1. Using map on Arrays
+2. Using filter on Arrays
