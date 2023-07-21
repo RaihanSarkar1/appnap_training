@@ -90,3 +90,14 @@ This is my Appnap web development training repository where I will keep all task
 1. Javascript Arrays
 2. Javascript array.forEach method
 3. Javascript array.map method
+
+## What I have learned from class 10
+1. Using map on Arrays
+2. Using filter on Arrays
+
+## What I have learned from class 11
+1. Javascript document and selecting element by id and class
+2. How to use the onclick Attribute
+3. How to use data attribute
+4. How to change color and text of an element using Javascript
+5. How to write functions in Javascript
