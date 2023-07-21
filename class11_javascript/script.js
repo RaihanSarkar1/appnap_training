@@ -10,8 +10,8 @@ var students = [
 ]
 
 var filteredStudents = students.filter(function(obj) {
-    // startsWith returns true if the starting prefix matches
-    return obj.phone.startsWith("017") || obj.phone.startsWith("+88017") || obj.phone.startsWith("0088017") || obj.phone.startsWith("013") || obj.phone.startsWith("+88013") || obj.phone.startsWith("0088013");
+    // Using regular expression
+    return obj.phone.test(/017|+88017|0088017|013|+88013|0088013/);
 })
 
 console.log(filteredStudents);
