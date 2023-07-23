@@ -11,7 +11,8 @@ var students = [
 
 var filteredStudents = students.filter(function(obj) {
     // Using regular expression
-    return obj.phone.test(/017|+88017|0088017|013|+88013|0088013/);
+    const regex = /017|\+88017|0088017|013|\+88013|0088013/;
+    return regex.test(obj.phone);
 })
 
 console.log(filteredStudents);
