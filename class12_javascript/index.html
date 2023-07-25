@@ -9,9 +9,9 @@
             <div class="row">
                 <div class="col-12">
                     <button onclick="add_student()" class="btn btn-primary">Add Student</button>
-                    <button class="btn btn-primary">Add Student First</button>
-                    <button class="btn btn-danger">Remove Student</button>
-                    <button class="btn btn-danger">Remove Student First</button>
+                    <button onclick="add_student_first()" class="btn btn-primary">Add Student First</button>
+                    <button onclick="remove_student()" class="btn btn-danger">Remove Student</button>
+                    <button onclick="remove_student_first()" class="btn btn-danger">Remove Student First</button>
                     <table class="table">
                         <thead>
                           <tr>
@@ -56,6 +56,22 @@
 
             function prepare(element) {
                 return "<tr><td>"+element.name+"</td><td>"+element.age+"</td><td>"+element.email+"</td><td>"+element.phone+"</td></tr>";
+            }
+
+            function add_student_first() {
+                var student = {name:"Saturn", age: 30, email:"sat@mail.com", phone: +915468722768}
+                formatted.unshift(prepare(student));
+                document.getElementById('student_list').innerHTML = formatted;
+            }
+
+            function remove_student() {
+                formatted.pop();
+                document.getElementById('student_list').innerHTML = formatted;
+            }
+
+            function remove_student_first() {
+                formatted.shift();
+                document.getElementById('student_list').innerHTML = formatted
             }
 
         </script>
