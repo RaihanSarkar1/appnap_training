@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Phone</th>
+                      </tr>
+                    </thead>
+                    <tbody id="student_list">
+                    </tbody>
+                  
+                </table>
+            </div>
+        </div>
+
+
+
+        
+        <script>
+            var students = [
+                {name:"Pluto", age: 44, email: "pluto@mail.com", phone: "01709090909"},
+                { email: "pluto1@mail.com", name:"Pluto1", age: 45, phone: "01809090909"},
+                {age: 45,  email: "pluto2@mail.com", name:"Pluto2", phone: "+8801709090909"}
+            ]
+
+            var formatted = "";
+            students.forEach( function (element) {
+                formatted += "<tr><td>"+element.name+"</td><td>"+element.age+"</td><td>"+element.email+"</td><td>"+element.phone+"</td></tr>";
+            })
+
+            document.getElementById('student_list').innerHTML = formatted;
+
+        </script>
+    </body>
+</html>
