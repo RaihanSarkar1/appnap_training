@@ -7,19 +7,25 @@
     <body>
         <div class="container">
             <div class="row">
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Age</th>
-                        <th scope="col">Email</th>
-                        <th scope="col">Phone</th>
-                      </tr>
-                    </thead>
-                    <tbody id="student_list">
-                    </tbody>
-                  
-                </table>
+                <div class="col-12">
+                    <button onclick="add_student()" class="btn btn-primary">Add Student</button>
+                    <button class="btn btn-primary">Add Student First</button>
+                    <button class="btn btn-danger">Remove Student</button>
+                    <button class="btn btn-danger">Remove Student First</button>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Age</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Phone</th>
+                          </tr>
+                        </thead>
+                        <tbody id="student_list">
+                        </tbody>
+                    
+                    </table>
+                </div>
             </div>
         </div>
 
@@ -33,12 +39,24 @@
                 {age: 45,  email: "pluto2@mail.com", name:"Pluto2", phone: "+8801709090909"}
             ]
 
-            var formatted = "";
+            var formatted = [];
             students.forEach( function (element) {
-                formatted += "<tr><td>"+element.name+"</td><td>"+element.age+"</td><td>"+element.email+"</td><td>"+element.phone+"</td></tr>";
+                formatted.push(prepare(element));
             })
-
+            
             document.getElementById('student_list').innerHTML = formatted;
+            
+            
+            function add_student() {
+                var student = {name: "Mars", age: 50, email: "mars@mail.com", phone: "+880194135486"};
+                formatted.push(prepare(student));
+                console.log(formatted);
+                document.getElementById('student_list').innerHTML = formatted;
+            }
+
+            function prepare(element) {
+                return "<tr><td>"+element.name+"</td><td>"+element.age+"</td><td>"+element.email+"</td><td>"+element.phone+"</td></tr>";
+            }
 
         </script>
     </body>
