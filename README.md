@@ -101,3 +101,12 @@ This is my Appnap web development training repository where I will keep all task
 3. How to use data attribute
 4. How to change color and text of an element using Javascript
 5. How to write functions in Javascript
+
+## What I have learned from class 12
+1. How to show data on table from array of object dataset using the map function
+2. How to optimize code for better readability and reusability.
+
+## What I have learned from class 13
+1. How to take form data using Javascript
+2. How to use validation of bootstrap if field is empty
+
