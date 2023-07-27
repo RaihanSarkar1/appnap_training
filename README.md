@@ -105,8 +105,9 @@ This is my Appnap web development training repository where I will keep all task
 ## What I have learned from class 12
 1. How to show data on table from array of object dataset using the map function
 2. How to optimize code for better readability and reusability.
+3. How to add data to the table using javascript at the start and end of the table
 
 ## What I have learned from class 13
-1. How to take form data using Javascript
+1. How to take form data using Javascript and show it on the table
 2. How to use validation of bootstrap if field is empty
 
