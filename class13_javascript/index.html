@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Practice</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    
+                    <form id="this_form" class="p-5 mt-2 border rounded">
+                        <div class="mb-3">
+                          <label for="student_name" class="form-label">Student's Name:</label>
+                          <input type="text" class="form-control" id="student_name" aria-describedby="emailHelp">
+                          <div id="student_name_feedback" class="invalid-feedback">
+                            Please provide a student name
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="age" class="form-label">Age</label>
+                          <input type="number" class="form-control" id="age">
+                          <div id="validationServerAgeFeedback" class="invalid-feedback">
+                            Please provide an age
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                          <div id="validationServerEmailFeedback" class="invalid-feedback">
+                              Please provide a valid email.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="phone" class="form-label">Phone</label>
+                          <input type="number" class="form-control" id="phone">
+                          <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                            Please provide a valid phone number.
+                          </div>
+                        </div>
+                        <button onclick="addStudent()" type="button" class="btn btn-primary">Save</button>
+                      </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody id="student_list">
+            
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var students = [
+                {name:"Pluto", age: 44, email: "pluto@mail.com", phone: "01709090909"},
+                { email: "pluto1@mail.com", name:"Pluto1", age: 45, phone: "01809090909"},
+                {age: 45,  email: "pluto2@mail.com", name:"Pluto2", phone: "+8801709090909"}
+            ]
+
+            var s_name = document.getElementById('student_name');
+            var age = document.getElementById('age');
+            var phone = document.getElementById('phone');
+            var email = document.getElementById('email');
+
+            formatted_list = students.map( function(element){
+                return prepare(element);
+            })
+
+            document.getElementById('student_list').innerHTML = formatted_list;
+
+
+            function addStudent() {
+
+                s_name.className = s_name.value ? "form-control": "form-control is-invalid"
+                age.className = age.value ? "form-control": "form-control is-invalid"
+                email.className = email.value ? "form-control": "form-control is-invalid"
+                phone.className = phone.value ? "form-control": "form-control is-invalid"
+
+                if (s_name.value && age.value && email.value && phone.value) {
+                    var student = {
+                        name: s_name.value,
+                        age: age.value,
+                        email: email.value,
+                        phone: phone.value
+                    }
+    
+                    formatted_list.push(prepare(student));
+                    document.getElementById('student_list').innerHTML = formatted_list;
+                    document.getElementById('this_form').reset();
+                }
+
+
+            }
+
+            function prepare(element) {
+                return "<tr><td>"+element.name+"</td><td>"+element.age+"</td><td>"+element.email+"</td><td>"+element.phone+"</td></tr>";
+            }
+        </script>
+    </body>
+</html>
