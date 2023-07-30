@@ -111,3 +111,14 @@ This is my Appnap web development training repository where I will keep all task
 1. How to take form data using Javascript and show it on the table
 2. How to use validation of bootstrap if field is empty
 
+## Class 14
+1. Php Basic syntax
+2. Naming conventions
+3. variables
+4. operators
+5. conditional statements
+6. loops
+7. arrays
+8. associative arrays
+9. superglobal variables
+10. array functions
