@@ -28,13 +28,20 @@ class rickshaw extends vehicle {
 }
 
 class motorbike extends vehicle {
-
+    public function __construct($name, $brand, $price) {
+        parent::__construct($name, 2, $brand, $price);
+    }
 }
 
 class car extends vehicle {
-
+    public function __construct($name, $brand, $price) {
+        parent::__construct($name, 4, $brand, $price);
+    }
 }
 
 $new_rickshaw = new rickshaw("Green", "Brothers", 50000);
-
+$new_bike = new motorbike("Scrambler","Ducati", 1000000);
+$new_car = new car("Corolla", "Toyota", 1500000);
 echo '<pre>'; print_r($new_rickshaw->get_info());
+print_r($new_bike->get_info());
+echo '<pre>'; print_r($new_car->get_info());
