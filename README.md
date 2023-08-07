@@ -122,3 +122,10 @@ This is my Appnap web development training repository where I will keep all task
 8. associative arrays
 9. superglobal variables
 10. array functions
+
+## What I have learned from class 15
+1. Php objects
+2. Constructors
+3. Encapsulation
+4. public functions
+5. Inheritance
