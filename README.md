@@ -129,3 +129,19 @@ This is my Appnap web development training repository where I will keep all task
 3. Encapsulation
 4. public functions
 5. Inheritance
+
+## Class 16
+Setting Up Laravel- 
+1. Xampp
+2. Composer
+3. Laravel
+
+## Class 17
+1. How to set Route
+2. How to make controller
+3. How to make views
+
+## Class 18
+1. Interface
+2. Polymorphism
+3. How to setup Database
