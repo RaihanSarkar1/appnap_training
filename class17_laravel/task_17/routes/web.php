@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 // Creates the login Route and when the login route is requested it accesses the login function of the HomeController
 Route::get('login', 'App\Http\Controllers\HomeController@login');
+Route::get('forgot', 'App\Http\Controllers\HomeController@forgot');

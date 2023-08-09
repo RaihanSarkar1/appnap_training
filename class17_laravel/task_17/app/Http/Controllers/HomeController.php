@@ -9,7 +9,11 @@ class HomeController extends Controller
     // Write Functions here
 
     public function login() {
-        return view('login');
+        return view('auth.login');
+    }
+   
+    public function forgot() {
+        return view('auth.forgot');
     }
 
 
