@@ -21,14 +21,14 @@ echo "My windows are $coLoR <br>";
 
 // Php variable scopes are of three types: local, global, static
 
-// a variable outside a funciton has a global scope and can olny be accessed outside a function
+// a variable outside a funciton has a global scope and can only be accessed outside a function
 // Global variable - can be accessed only outside of functions
 $x = 5; 
 // Local Scope - variables can be acessed only within the function
 function myFun() {
     $y = 10.5;
 }
-// Global keyword is used to access a vdariable outside a function
+// Global keyword is used to access a variable outside a function
 function thisFun() {
     global $x;
     $p = $x + 5;
