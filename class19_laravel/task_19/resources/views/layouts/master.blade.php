@@ -141,30 +141,7 @@
 			<!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
 			<!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
 			<!-- Or class "fixed" to  always fix the footer to the end of page -->
-			<footer class="main-footer sticky footer-type-1">
-				
-				<div class="footer-inner">
-				
-					<!-- Add your copyright text here -->
-					<div class="footer-text">
-						&copy; 2014 
-						<strong>Xenon</strong> 
-						theme by <a href="http://laborator.co" target="_blank">Laborator</a>
-					</div>
-					
-					
-					<!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
-					<div class="go-up">
-					
-						<a href="#" rel="go-top">
-							<i class="fa-angle-up"></i>
-						</a>
-						
-					</div>
-					
-				</div>
-				
-			</footer>
+			@include('layouts.footer')
 		</div>
 		
 			
@@ -181,23 +158,7 @@
 
 
 	<!-- Bottom Scripts -->
-	<script src="{{ asset('background/js/bootstrap.min.js') }}"></script>
-	<script src="{{ asset('background/js/TweenMax.min.js') }}"></script>
-	<script src="{{ asset('background/js/resizeable.js') }}"></script>
-	<script src="{{ asset('background/js/joinable.js') }}"></script>
-	<script src="{{ asset('background/js/xenon-api.js') }}"></script>
-	<script src="{{ asset('background/js/xenon-toggles.js') }}"></script>
-
-
-	<!-- Imported scripts on this page -->
-	<script src="{{ asset('background/js/xenon-widgets.js') }}"></script>
-	<script src="{{ asset('background/js/devexpress-web-14.1/js/globalize.min.js') }}"></script>
-	<script src="{{ asset('background/js/devexpress-web-14.1/js/dx.chartjs.js') }}"></script>
-	<script src="{{ asset('background/js/toastr/toastr.min.js') }}"></script>
-
-
-	<!-- JavaScripts initializations and stuff -->
-	<script src="{{ asset('background/js/xenon-custom.js') }}"></script>
+	@include('layouts.footer_links')
 
 </body>
 </html>

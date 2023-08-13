@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('home', 'App\Http\Controllers\HomeController@viewHome');
+Route::get('login', 'App\Http\Controllers\HomeController@index');
+Route::post('login', 'App\Http\Controllers\HomeController@login');
