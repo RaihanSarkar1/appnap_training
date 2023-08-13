@@ -20,6 +20,6 @@ class UserService {
             array_push($position_array, $role->setPosition());
         }
 
-        dd($name_array,$position_array);
+        return $name_array, $position_array;
     }
 }
