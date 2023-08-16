@@ -145,3 +145,13 @@ Setting Up Laravel-
 1. Interface
 2. Polymorphism
 3. How to setup Database
+
+## Class 19
+1. How to use layouts
+2. How to run migrations
+
+## Class 20
+1. Vlaidating form
+2. Authentication
+3. Sessions
+4. Middleware
