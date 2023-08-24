@@ -155,3 +155,8 @@ Setting Up Laravel-
 2. Authentication
 3. Sessions
 4. Middleware
+
+## Class 23
+1. Adding Image to database
+2. Hot to add another field in table using migration\
+3. How to edit data in user table
